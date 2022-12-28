@@ -15,8 +15,10 @@ header nav ul{
     list-style: none;
     align-items: center;
 }
-header .container{
+.d-flex{
     display: flex;
+}
+header .container{
     justify-content: space-between;
     align-items: center;
 }
@@ -53,7 +55,6 @@ header nav li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: 90vh;
-    display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
@@ -92,6 +93,77 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
+.what-we-do{
+    padding-top: 113px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+.what-we-do .container{
+    max-width: 1168px;
+}
+.what-we-do h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what-we-do h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.d-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.what-we-do .d-flex-container article{
+    max-width: 576px;
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.what-we-do .d-flex-container article img{
+    display: block;
+    width: 100%;
+}
+.what-we-do .d-flex-container article .description{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 45px 30px 30px;
+    box-sizing: border-box;
+}
+.what-we-do .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.what-we-do .description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 17px;
+}
 .clients{
     padding-top: 120px;
     padding-bottom: 100px;
@@ -118,7 +190,6 @@ header nav li:last-of-type a{
 }
 .clients-logos{
     max-width: 1168px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 46px;
@@ -150,7 +221,7 @@ header nav li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.communication a{
+.btn{
     background: #FFFFFF;
     border-radius: 14px;
     font-family: 'Poppins', sans-serif;
@@ -165,7 +236,7 @@ header nav li:last-of-type a{
     display: inline-flex;
     align-items: center;
 }
-.communication a:before{
+.btn:before{
     display: inline-block;
     content: "";
     width: 32px;
