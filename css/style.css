@@ -359,8 +359,8 @@ footer .container{
 }
 .form input{
     width: 85%;
-    height: 0;
-    background: none;
+    height: 52px;
+    background-color: transparent;
     border: none;
 }
 .form button{
