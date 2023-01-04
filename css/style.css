@@ -59,6 +59,7 @@ header nav li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main-banner .container{
     max-width: 580px;
@@ -92,6 +93,42 @@ header nav li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.position-items{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    list-style: none;
+}
+.position-items li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.position-items li:before{
+    display: inline-block;
+    content: "";
+    background-image: url("../images/icon_1.svg");
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.position-items li:nth-child(2):before{
+    background-image: url("../images/icon_2.svg");
+}
+.position-items li:nth-child(3):before{
+    background-image: url("../images/icon_3.svg");
+    width: 32px;
+}
+.position-items li:nth-child(4):before{
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
 }
 .what-we-do{
     padding-top: 113px;
@@ -165,12 +202,13 @@ header nav li:last-of-type a{
     margin-bottom: 17px;
 }
 .photo{
-    height: 600px;
+    min-height: 600px;
     background-image: url("../images/photo1.jpg");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .text{
     max-width: 298px;
@@ -198,13 +236,65 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
+
+.we-use{
+    background-color: #000000;
+    position: relative;
+}
+.we-use .container{
+    max-width: 1240px;
+    min-height: 540px;
+    align-items: center;
+}
+.we-use .information{
+    max-width: 514px;
+}
+.we-use .information h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.we-use .information h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.we-use .information p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.we-use .banner-we-use{
+    background-image: url("../images/banner_we_use.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
 .photo-2{
-    height: 600px;
+    min-height: 600px;
     background-image: url("../images/photo2.jpg");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .clients{
     padding-top: 120px;
@@ -237,12 +327,13 @@ header nav li:last-of-type a{
     padding: 40px 46px;
 }
 .photo-3{
-    height: 600px;
+    min-height: 600px;
     background-image: url("../images/photo3.jpg");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .communication{
     padding-top: 113px;
