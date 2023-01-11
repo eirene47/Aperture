@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1250px){
+    .container{
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 1180px){
+    footer{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .d-flex-container{
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .we-use .banner-we-use{
+        position: relative;
+    }
+    .we-use .container{
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 850px){
+    header .container{
+        display: inherit;
+        text-align: center;
+    }
+    header a img{
+        margin-bottom: 20px;
+    }
+    header nav ul{
+        justify-content: space-around;
+    }
+    header nav li {
+        margin-bottom: 10px;
+        margin-left: inherit;
+    }
+    .logo{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .main-banner {
+        align-items: center;
+    }
+    .main-banner h4,
+    .main-banner p{
+        font-size: 12px;
+    }
+    .main-banner h1{
+        font-size: 40px;
+    }
+    .what-we-do h2,
+    .clients h2,
+    .communication h2{
+        font-size: 30px;
+    }
+    .what-we-do h3,
+    .clients h3,
+    .communication h3{
+        font-size: 18px;
+    }
+    .clients-logos{
+        flex-direction: column;
+        row-gap: 55px;
+    }
+}
+@media only screen and (max-width: 600px){
+    header nav ul{
+        display: none;
+    }
+    header a img {
+        margin-bottom: inherit;
+    }
+    .photo,
+    .photo-2,
+    .photo-3{
+        justify-content: center;
+    }
+    .text{
+        text-align: center;
+        margin: inherit;
+    }
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo,
+    .subscribe-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .list {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .social{
+        text-align: center;
+    }
+    .text-copyright{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .form{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .form{
+        width: 300px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .btn{
+        font-size: 13px;
+    }
+    .what-we-do .description h4,
+    .what-we-do .description p,
+    .photo .text h4,
+    .photo-2 .text h4,
+    .photo-3 .text h4,
+    .photo .text p,
+    .photo-2 .text p,
+    .photo-3 .text p,
+    .we-use .information p,
+    .we-use .information h4{
+        font-size: 12px;
+    }
+    .we-use .information h3{
+        font-size: 23px;
+    }
+}
