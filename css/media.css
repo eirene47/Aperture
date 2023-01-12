@@ -15,6 +15,8 @@
 @media only screen and (max-width: 1050px){
     .we-use .banner-we-use{
         position: relative;
+        width: 100%;
+        height: 450px;
     }
     .we-use .container{
         justify-content: center;
