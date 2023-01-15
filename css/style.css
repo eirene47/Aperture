@@ -325,6 +325,40 @@ header nav li:last-of-type a{
     align-items: center;
     padding: 40px 46px;
 }
+.clients-logos a{
+    max-width: 128px;
+    display: inline-block;
+}
+.clients-logos .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.clients-logos .owl-nav .owl-prev{
+    position: absolute;
+    left: -50px;
+    top: 58px;
+}
+.clients-logos .owl-nav .owl-prev:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+}
+.clients-logos .owl-nav .owl-next{
+    position: absolute;
+    right: -50px;
+    top: 58px;
+}
+.clients-logos .owl-nav .owl-next:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f054";
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+}
 .photo-3{
     min-height: 600px;
     background-image: url("../images/photo3.jpg");
