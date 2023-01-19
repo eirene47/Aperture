@@ -11,10 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+<div id="dialog" title="Get template">
+    <p>
+        To receive our latest templates, leave your name and email. Then check your inbox.
+    </p>
+    <form name="dialog" action="#" method="post">
+        <div>
+            <label class="form-control" for="name"></label>
+            <input class="form-text" type="text" name="name" placeholder="Name" id="name">
+        </div>
+        <div>
+            <label class="form-control" for="email-dialog"></label>
+            <input class="form-text" type="email" name="email" placeholder="Email" id="email-dialog">
+        </div>
+        <button class="form-button" type="submit">
+            Submit
+        </button>
+    </form>
+</div>
 <header>
     <div class="container d-flex">
         <a href="#">
@@ -35,7 +55,7 @@
                     <a href="#">Contact</a>
                 </li>
                 <li>
-                    <a href="#">Get template</a>
+                    <a href="#" id="opener">Get template</a>
                 </li>
             </ul>
         </nav>
@@ -266,9 +286,9 @@
             <h3>Subscribe to our newsletter</h3>
             <p>Read about all the things we do.</p>
         </div>
-        <form class="form d-flex" action="#" method="post">
-            <label for="text"></label>
-            <input type="text" name="text" placeholder=" " id="text">
+        <form name="" class="form d-flex" action="#" method="post">
+            <label for="email"></label>
+            <input type="email" name="email" placeholder=" " id="email">
             <button type="submit"></button>
         </form>
     </div>
@@ -293,10 +313,10 @@
         </ul>
     </div>
 </footer>
-
 <script src="https://kit.fontawesome.com/c84d0b8604.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

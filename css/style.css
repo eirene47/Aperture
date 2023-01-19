@@ -419,6 +419,63 @@ header nav li:last-of-type a{
     border-radius: 50%;
     margin-right: 6px;
 }
+/*footer*/
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1168px;
+    margin: auto;
+}
+.list{
+    padding-bottom: 36px;
+}
+.logo{
+    max-width: 440px;
+}
+.logo-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-top: 20px;
+}
+.list{
+    margin-right: 55px;
+}
+.list h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+}
+.list ul,
+.icons{
+    list-style: none;
+}
+.list ul li{
+    margin-bottom: 10px;
+}
+.list a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .form{
     width: 458px;
     height: 52px;
@@ -484,60 +541,87 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
-/*footer*/
-footer{
-    padding-top: 100px;
-    padding-bottom: 100px;
+/*Dialog*/
+.ui-widget.ui-widget-content{
+    border: none;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br,
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl{
+    border-radius: 10px;
+}
+.ui-widget-content{
+    background-image: url("../images/photo2.jpg");
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.ui-dialog{
+    padding: 0;
+    min-width: 400px!important;
+    top: 95px!important;
+    left: 565px!important;
+}
+.ui-dialog .ui-dialog-titlebar{
+    padding: 10px 0;
+}
+.ui-widget-header{
+    border: none;
     background-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
-.flex-container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1168px;
-    margin: auto;
+.ui-dialog .ui-dialog-title{
+    width: 100%;
 }
-.list{
-    padding-bottom: 36px;
+.ui-dialog .ui-dialog-titlebar-close{
+    top: 27%;
+    right: 3px;
 }
-.logo{
-    max-width: 440px;
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: none;
+    background-color: transparent;
 }
-.logo-text{
+.ui-dialog .ui-dialog-content{
+    padding: 25px 20px;
+}
+.ui-dialog-content.ui-widget-content p{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.ui-dialog-content.ui-widget-content .form-control{
+    display: none;
+}
+.ui-dialog-content.ui-widget-content .form-text{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    color: #C0C0C0;
-    margin-top: 20px;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    width: 200px;
+    margin-bottom: 15px;
 }
-.list{
-    margin-right: 55px;
-}
-.list h4{
+.ui-dialog-content.ui-widget-content .form-button{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C0C0C0;
-    margin-bottom: 10px;
-}
-.list ul,
-.icons{
-    list-style: none;
-}
-.list ul li{
-    margin-bottom: 10px;
-}
-.list a{
-    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
-    text-decoration: none;
+    padding: 8px 20px;
+    cursor: pointer;
 }

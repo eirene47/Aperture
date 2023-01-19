@@ -17,4 +17,21 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "clip",
+                duration: 500
+            },
+            hide: {
+                effect: "clip",
+                duration: 500
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
 });
