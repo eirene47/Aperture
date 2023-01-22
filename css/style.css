@@ -15,10 +15,15 @@ header nav ul{
     list-style: none;
     align-items: center;
 }
+.logo{
+    position: relative;
+    z-index: 99;
+}
 .d-flex{
     display: flex;
 }
 header .container{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }

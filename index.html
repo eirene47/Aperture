@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <div id="dialog" title="Get template">
@@ -36,29 +38,28 @@
     </form>
 </div>
 <header>
-    <div class="container d-flex">
+    <div class="header-wrapper container">
         <a href="#">
             <img src="images/logo.svg" alt="Aperture">
         </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Business areas</a>
-                </li>
-                <li>
-                    <a href="#">Featured images</a>
-                </li>
-                <li>
-                    <a href="#">Gear cage</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#" id="opener">Get template</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target" id="opener">Get template</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 <main>
