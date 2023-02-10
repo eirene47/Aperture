@@ -38,10 +38,10 @@ header nav a{
 }
 header nav li{
     margin-left: 32px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 header nav li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 header nav li:first-of-type a{
     font-size: 13px;
@@ -333,6 +333,10 @@ header nav li:last-of-type a{
 .clients-logos a{
     max-width: 128px;
     display: inline-block;
+    transition: 0.3s;
+}
+.clients-logos a:hover{
+    transform: scale(0.9);
 }
 .clients-logos .owl-stage{
     display: flex;
@@ -401,7 +405,7 @@ header nav li:last-of-type a{
     margin-bottom: 22px;
 }
 .btn{
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 14px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -423,6 +427,10 @@ header nav li:last-of-type a{
     background-color: #000000;
     border-radius: 50%;
     margin-right: 6px;
+    transition: 0.3s;
+}
+.btn:hover:before{
+    background-color: #C0C0C0;
 }
 /*footer*/
 footer{
@@ -480,6 +488,10 @@ footer{
     line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: 0.2s;
+}
+.list a:hover{
+    color: #C0C0C0;
 }
 .form{
     width: 458px;
@@ -488,10 +500,18 @@ footer{
     border-radius: 12px;
 }
 .form input{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
     width: 85%;
     height: 52px;
     background-color: transparent;
+    padding-left: 5px;
     border: none;
+    outline: none;
 }
 .form button{
     width: 15%;
@@ -517,6 +537,10 @@ footer{
 }
 .icons li a img{
     height: 24px;
+    transition: 0.3s;
+}
+.icons li a img:hover{
+    transform: scale(1.2);
 }
 .subscribe{
     padding-top: 36px;
@@ -606,6 +630,7 @@ footer{
 }
 .ui-dialog-content.ui-widget-content .form-control{
     display: none;
+    outline: none;
 }
 .ui-dialog-content.ui-widget-content .form-text{
     font-family: 'Poppins', sans-serif;
@@ -619,6 +644,7 @@ footer{
     box-sizing: border-box;
     width: 200px;
     margin-bottom: 15px;
+    outline: none;
 }
 .ui-dialog-content.ui-widget-content .form-button{
     font-family: 'Poppins', sans-serif;
